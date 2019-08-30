@@ -9,15 +9,15 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite\Providers;
+namespace Xbhub\Socialite\Providers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use Packages\Socialite\AccessToken;
-use Packages\Socialite\AccessTokenInterface;
-use Packages\Socialite\AuthorizeFailedException;
-use Packages\Socialite\InvalidStateException;
-use Packages\Socialite\ProviderInterface;
+use Xbhub\Socialite\AccessToken;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\AuthorizeFailedException;
+use Xbhub\Socialite\InvalidStateException;
+use Xbhub\Socialite\ProviderInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -55,7 +55,7 @@ abstract class AbstractProvider implements ProviderInterface
     protected $clientSecret;
 
     /**
-     * @var \Packages\Socialite\AccessTokenInterface
+     * @var \Xbhub\Socialite\AccessTokenInterface
      */
     protected $accessToken;
 
@@ -143,7 +143,7 @@ abstract class AbstractProvider implements ProviderInterface
     /**
      * Get the raw user for the given access token.
      *
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      *
      * @return array
      */
@@ -154,7 +154,7 @@ abstract class AbstractProvider implements ProviderInterface
      *
      * @param array $user
      *
-     * @return \Packages\Socialite\User
+     * @return \Xbhub\Socialite\User
      */
     abstract protected function mapUserToObject(array $user);
 
@@ -237,7 +237,7 @@ abstract class AbstractProvider implements ProviderInterface
     }
 
     /**
-     * @param \Packages\Socialite\AccessTokenInterface $accessToken
+     * @param \Xbhub\Socialite\AccessTokenInterface $accessToken
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ abstract class AbstractProvider implements ProviderInterface
      *
      * @param string $code
      *
-     * @return \Packages\Socialite\AccessTokenInterface
+     * @return \Xbhub\Socialite\AccessTokenInterface
      */
     public function getAccessToken($code)
     {
@@ -436,7 +436,7 @@ abstract class AbstractProvider implements ProviderInterface
      *
      * @param \Psr\Http\Message\StreamInterface|array $body
      *
-     * @return \Packages\Socialite\AccessTokenInterface
+     * @return \Xbhub\Socialite\AccessTokenInterface
      */
     protected function parseAccessToken($body)
     {

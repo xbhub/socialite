@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite\Providers;
+namespace Xbhub\Socialite\Providers;
 
-use Packages\Socialite\AccessTokenInterface;
-use Packages\Socialite\ProviderInterface;
-use Packages\Socialite\User;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\ProviderInterface;
+use Xbhub\Socialite\User;
 
 /**
  * Class OutlookProvider.

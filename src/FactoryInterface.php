@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite;
+namespace Xbhub\Socialite;
 
 /**
  * Interface FactoryInterface.
@@ -21,7 +21,7 @@ interface FactoryInterface
      *
      * @param string $driver
      *
-     * @return \Packages\Socialite\ProviderInterface
+     * @return \Xbhub\Socialite\ProviderInterface
      */
     public function driver($driver);
 }

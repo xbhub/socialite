@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite\Providers;
+namespace Xbhub\Socialite\Providers;
 
-use Packages\Socialite\AccessTokenInterface;
-use Packages\Socialite\ProviderInterface;
-use Packages\Socialite\User;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\ProviderInterface;
+use Xbhub\Socialite\User;
 
 /**
  * Class QQProvider.
@@ -103,7 +103,7 @@ class QQProvider extends AbstractProvider implements ProviderInterface
      *
      * @param string $code
      *
-     * @return \Packages\Socialite\AccessToken
+     * @return \Xbhub\Socialite\AccessToken
      */
     public function getAccessToken($code)
     {
@@ -119,7 +119,7 @@ class QQProvider extends AbstractProvider implements ProviderInterface
      *
      * @param string $body
      *
-     * @return \Packages\Socialite\AccessToken
+     * @return \Xbhub\Socialite\AccessToken
      */
     public function parseAccessToken($body)
     {
@@ -141,7 +141,7 @@ class QQProvider extends AbstractProvider implements ProviderInterface
     /**
      * Get the raw user for the given access token.
      *
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      *
      * @return array
      */
@@ -172,7 +172,7 @@ class QQProvider extends AbstractProvider implements ProviderInterface
      *
      * @param array $user
      *
-     * @return \Packages\Socialite\User
+     * @return \Xbhub\Socialite\User
      */
     protected function mapUserToObject(array $user)
     {

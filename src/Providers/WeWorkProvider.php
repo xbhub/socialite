@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite\Providers;
+namespace Xbhub\Socialite\Providers;
 
-use Packages\Socialite\AccessTokenInterface;
-use Packages\Socialite\ProviderInterface;
-use Packages\Socialite\User;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\ProviderInterface;
+use Xbhub\Socialite\User;
 
 /**
  * Class WeWorkProvider.
@@ -130,7 +130,7 @@ class WeWorkProvider extends AbstractProvider implements ProviderInterface
     }
 
     /**
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      *
      * @return mixed
      */
@@ -150,7 +150,7 @@ class WeWorkProvider extends AbstractProvider implements ProviderInterface
     /**
      * Get user base info.
      *
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      *
      * @return mixed
      */
@@ -169,7 +169,7 @@ class WeWorkProvider extends AbstractProvider implements ProviderInterface
     /**
      * Get user detail info.
      *
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      * @param $ticket
      *
      * @return mixed
@@ -191,7 +191,7 @@ class WeWorkProvider extends AbstractProvider implements ProviderInterface
     /**
      * @param array $user
      *
-     * @return \Packages\Socialite\User
+     * @return \Xbhub\Socialite\User
      */
     protected function mapUserToObject(array $user)
     {

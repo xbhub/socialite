@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite;
+namespace Xbhub\Socialite;
 
 interface ProviderInterface
 {
@@ -23,9 +23,9 @@ interface ProviderInterface
     /**
      * Get the User instance for the authenticated user.
      *
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      *
-     * @return \Packages\Socialite\User
+     * @return \Xbhub\Socialite\User
      */
     public function user(AccessTokenInterface $token = null);
 }

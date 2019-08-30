@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite\Providers;
+namespace Xbhub\Socialite\Providers;
 
-use Packages\Socialite\AccessTokenInterface;
-use Packages\Socialite\ProviderInterface;
-use Packages\Socialite\User;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\ProviderInterface;
+use Xbhub\Socialite\User;
 
 /**
  * Class LinkedinProvider.
@@ -42,7 +42,7 @@ class LinkedinProvider extends AbstractProvider implements ProviderInterface
      *
      * @param string $code
      *
-     * @return \Packages\Socialite\AccessToken
+     * @return \Xbhub\Socialite\AccessToken
      */
     public function getAccessToken($code)
     {

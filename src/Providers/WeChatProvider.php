@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite\Providers;
+namespace Xbhub\Socialite\Providers;
 
-use Packages\Socialite\AccessTokenInterface;
-use Packages\Socialite\InvalidArgumentException;
-use Packages\Socialite\ProviderInterface;
-use Packages\Socialite\User;
-use Packages\Socialite\WeChatComponentInterface;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\InvalidArgumentException;
+use Xbhub\Socialite\ProviderInterface;
+use Xbhub\Socialite\User;
+use Xbhub\Socialite\WeChatComponentInterface;
 
 /**
  * Class WeChatProvider.

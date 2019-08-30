@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite;
+namespace Xbhub\Socialite;
 
 class AuthorizeFailedException extends \RuntimeException
 {

@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite;
+namespace Xbhub\Socialite;
 
 use ArrayAccess;
 use JsonSerializable;
@@ -94,7 +94,7 @@ class User implements ArrayAccess, UserInterface, JsonSerializable, \Serializabl
     /**
      * Set the token on the user.
      *
-     * @param \Packages\Socialite\AccessTokenInterface $token
+     * @param \Xbhub\Socialite\AccessTokenInterface $token
      *
      * @return $this
      */
@@ -128,7 +128,7 @@ class User implements ArrayAccess, UserInterface, JsonSerializable, \Serializabl
     /**
      * Get the authorized token.
      *
-     * @return \Packages\Socialite\AccessToken
+     * @return \Xbhub\Socialite\AccessToken
      */
     public function getToken()
     {
@@ -138,7 +138,7 @@ class User implements ArrayAccess, UserInterface, JsonSerializable, \Serializabl
     /**
      * Alias of getToken().
      *
-     * @return \Packages\Socialite\AccessToken
+     * @return \Xbhub\Socialite\AccessToken
      */
     public function getAccessToken()
     {

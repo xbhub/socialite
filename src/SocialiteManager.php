@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Packages\Socialite;
+namespace Xbhub\Socialite;
 
 use Closure;
 use InvalidArgumentException;
@@ -24,7 +24,7 @@ class SocialiteManager implements FactoryInterface
     /**
      * The configuration.
      *
-     * @var \Packages\Socialite\Config
+     * @var \Xbhub\Socialite\Config
      */
     protected $config;
 
@@ -92,7 +92,7 @@ class SocialiteManager implements FactoryInterface
     /**
      * Set config instance.
      *
-     * @param \Packages\Socialite\Config $config
+     * @param \Xbhub\Socialite\Config $config
      *
      * @return $this
      */
