@@ -1,0 +1,26 @@
+{
+    "name": "xbhub/socialite",
+    "description": "fock from overtrue/socialite.",
+    "keywords": ["OAuth", "social", "login", "Weibo", "WeChat", "QQ", "toutiao"],
+    "autoload": {
+        "psr-4": {
+            "Xbhub\\Socialite\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~5.0|~6.0",
+        "symfony/http-foundation": "^2.7|^3.0|^4.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~1.2",
+        "phpunit/phpunit": "~6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jorycn",
+            "email": "jorycn@163.com"
+        }
+    ]
+}
