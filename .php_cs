@@ -1,6 +1,6 @@
 <?php
 $header = <<<EOF
-This file is part of the overtrue/socialite.
+This file is part of the xbhub\socialite.
 
 (c) overtrue <i@overtrue.me>
 

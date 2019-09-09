@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the overtrue/socialite.
+ * This file is part of the xbhub\socialite.
  *
  * (c) overtrue <i@overtrue.me>
  *
@@ -10,9 +10,9 @@
  */
 
 use Mockery as m;
-use Overtrue\Socialite\AccessTokenInterface;
-use Overtrue\Socialite\Providers\AbstractProvider;
-use Overtrue\Socialite\User;
+use Xbhub\Socialite\AccessTokenInterface;
+use Xbhub\Socialite\Providers\AbstractProvider;
+use Xbhub\Socialite\User;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -66,12 +66,12 @@ class OAuthTest extends TestCase
         $response->shouldReceive('getBody')->once()->andReturn('{"access_token":"access_token"}');
         $user = $provider->user();
 
-        $this->assertInstanceOf('Overtrue\Socialite\User', $user);
+        $this->assertInstanceOf('Xbhub\Socialite\User', $user);
         $this->assertSame('foo', $user->getId());
     }
 
     /**
-     * @expectedException \Overtrue\Socialite\InvalidStateException
+     * @expectedException \Xbhub\Socialite\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsInvalid()
     {
@@ -83,7 +83,7 @@ class OAuthTest extends TestCase
     }
 
     /**
-     * @expectedException \Overtrue\Socialite\AuthorizeFailedException
+     * @expectedException \Xbhub\Socialite\AuthorizeFailedException
      * @expectedExceptionMessage Authorize Failed: {"error":"scope is invalid"}
      */
     public function testExceptionisThrownIfAuthorizeFailed()
@@ -101,7 +101,7 @@ class OAuthTest extends TestCase
     }
 
     /**
-     * @expectedException \Overtrue\Socialite\InvalidStateException
+     * @expectedException \Xbhub\Socialite\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsNotSet()
     {

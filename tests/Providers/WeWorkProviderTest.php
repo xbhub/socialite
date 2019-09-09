@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the overtrue/socialite.
+ * This file is part of the xbhub\socialite.
  *
  * (c) overtrue <i@overtrue.me>
  *
@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-use Overtrue\Socialite\Providers\WeWorkProvider;
+use Xbhub\Socialite\Providers\WeWorkProvider;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 

@@ -1,13 +1,13 @@
 <h1 align="center"> Socialite</h1>
 <p align="center">
-<a href="https://travis-ci.org/overtrue/socialite"><img src="https://travis-ci.org/overtrue/socialite.svg?branch=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/overtrue/socialite/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/overtrue/socialite/v/unstable.svg" alt="Latest Unstable Version"></a>
-<a href="https://scrutinizer-ci.com/g/overtrue/socialite/build-status/master"><img src="https://scrutinizer-ci.com/g/overtrue/socialite/badges/build.png?b=master" alt="Build Status"></a>
-<a href="https://scrutinizer-ci.com/g/overtrue/socialite/?branch=master"><img src="https://scrutinizer-ci.com/g/overtrue/socialite/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
-<a href="https://scrutinizer-ci.com/g/overtrue/socialite/?branch=master"><img src="https://scrutinizer-ci.com/g/overtrue/socialite/badges/coverage.png?b=master" alt="Code Coverage"></a>
-<a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/overtrue/socialite/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/overtrue/socialite/license" alt="License"></a>
+<a href="https://travis-ci.org/xbhub\socialite"><img src="https://travis-ci.org/xbhub\socialite.svg?branch=master" alt="Build Status"></a>
+<a href="https://packagist.org/packages/xbhub\socialite"><img src="https://poser.pugx.org/xbhub\socialite/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/xbhub\socialite"><img src="https://poser.pugx.org/xbhub\socialite/v/unstable.svg" alt="Latest Unstable Version"></a>
+<a href="https://scrutinizer-ci.com/g/xbhub\socialite/build-status/master"><img src="https://scrutinizer-ci.com/g/xbhub\socialite/badges/build.png?b=master" alt="Build Status"></a>
+<a href="https://scrutinizer-ci.com/g/xbhub\socialite/?branch=master"><img src="https://scrutinizer-ci.com/g/xbhub\socialite/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<a href="https://scrutinizer-ci.com/g/xbhub\socialite/?branch=master"><img src="https://scrutinizer-ci.com/g/xbhub\socialite/badges/coverage.png?b=master" alt="Code Coverage"></a>
+<a href="https://packagist.org/packages/xbhub\socialite"><img src="https://poser.pugx.org/xbhub\socialite/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/xbhub\socialite"><img src="https://poser.pugx.org/xbhub\socialite/license" alt="License"></a>
 </p>
 
 
@@ -21,7 +21,7 @@ PHP >= 7.0
 # Installation
 
 ```shell
-$ composer require "overtrue/socialite" -vvv
+$ composer require "xbhub\socialite" -vvv
 ```
 
 # Usage
@@ -33,7 +33,7 @@ For Laravel 5: [overtrue/laravel-socialite](https://github.com/overtrue/laravel-
 ```php
 <?php
 
-use Overtrue\Socialite\SocialiteManager;
+use Xbhub\Socialite\SocialiteManager;
 
 $config = [
     'github' => [
@@ -55,7 +55,7 @@ echo $response;// or $response->send();
 ```php
 <?php
 
-use Overtrue\Socialite\SocialiteManager;
+use Xbhub\Socialite\SocialiteManager;
 
 $config = [
     'github' => [

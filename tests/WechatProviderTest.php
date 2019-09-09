@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the overtrue/socialite.
+ * This file is part of the xbhub\socialite.
  *
  * (c) overtrue <i@overtrue.me>
  *
@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-use Overtrue\Socialite\Providers\WeChatProvider as RealWeChatProvider;
+use Xbhub\Socialite\Providers\WeChatProvider as RealWeChatProvider;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -95,7 +95,7 @@ class WeChatProvider extends RealWeChatProvider
     use ProviderTrait;
 }
 
-class WeChatComponent implements \Overtrue\Socialite\WeChatComponentInterface
+class WeChatComponent implements \Xbhub\Socialite\WeChatComponentInterface
 {
     public function getAppId()
     {
