@@ -166,7 +166,7 @@ class ToutiaoProvider extends AbstractProvider implements ProviderInterface
         ]);
         $res = json_decode($response->getBody()->getContents(), true);
         if($res['error'] != 0) {
-            throw new \Exception($res['errcode'].':'.$res['errmsg']);
+            abort('500', $res['errcode'].':'.$res['errmsg']);
         }
         return $this->mapUserToObject(array_merge(
             $res,

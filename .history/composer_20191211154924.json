@@ -1,6 +1,6 @@
 {
     "name": "xbhub/socialite",
-    "version": "0.0.4",
+    "version": 0.0.4,
     "description": "fock from xbhub socialite.",
     "keywords": ["OAuth", "social", "login", "Weibo", "WeChat", "QQ", "toutiao"],
     "autoload": {
